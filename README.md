@@ -1,23 +1,54 @@
-# My Portfolio — Signal HUD
+# Vidya Patil — Portfolio
 
-A developer portfolio built with React 19, Vite, Tailwind CSS 4, GSAP, Lenis, and Three.js.
+A data analyst portfolio built with a dark, motion-led "Signal HUD" aesthetic — showcasing Python, SQL, Power BI and data analytics projects.
 
-Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
+**Live site:** https://YOUR-SITE-URL/
+
+---
 
 ## Tech Stack
-- **React 19** + **Vite** (plain JavaScript / JSX)
-- **Tailwind CSS 4** (via `@tailwindcss/vite` plugin)
-- **GSAP** + **ScrollTrigger** — scroll animations
-- **Lenis** — smooth scrolling
-- **Three.js** — 3-D centrepiece
-- **EmailJS** — contact form without a back-end
 
-## Getting started
+| Layer | Library / Tool |
+|---|---|
+| UI | React 19 |
+| Bundler | Vite |
+| Styles | Tailwind CSS 4 |
+| Animation | GSAP + ScrollTrigger |
+| Smooth scroll | Lenis |
+| 3D scene | three.js |
+| Contact form | EmailJS |
+
+---
+
+## Run Locally
 
 ```bash
+# Install dependencies
 npm install
+
+# Start the dev server (http://localhost:5173)
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-## Repository topics
-`tap-academy` · `tap-academy-student` · `placement-training` · `augmented-reality`
+---
+
+## Environment Variables
+
+Create a `.env.local` file in the project root with your EmailJS credentials:
+
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+The contact form falls back to a `mailto:` link when these values are absent.
+
+---
+
+## Credits
+
+Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
