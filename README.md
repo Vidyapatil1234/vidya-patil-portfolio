@@ -2,7 +2,7 @@
 
 A data analyst portfolio built with a dark, motion-led "Signal HUD" aesthetic — showcasing Python, SQL, Power BI and data analytics projects.
 
-**Live site:** https://YOUR-SITE-URL/
+**Live site:** https://my-portfolio-zeta-seven-89.vercel.app/
 
 ---
 
